@@ -17,7 +17,8 @@
         "bootmagic": false,
         "extrakey": true,
         "mousekey": true,
-        "encoder": true
+        "encoder": true,
+        "oled": true
     },
     "matrix_pins": {
         "direct": [
@@ -92,5 +93,10 @@
                 }
             ]
         }
+    },
+    "i2c": {
+        "driver": "i2cd1",
+        "sda_pin": "GP6",
+        "scl_pin": "GP7"
     }
 }
