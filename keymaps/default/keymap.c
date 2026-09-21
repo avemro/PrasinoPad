@@ -28,7 +28,7 @@ bool encoder_update_user(uint8_t index, bool clockwise) {
 
 #ifdef OLED_ENABLE
 oled_rotation_t oled_init_user(oled_rotation_t rotation) {
-    return OLED_ROTATION180;
+    return OLED_ROTATION_180;
 }
 
 bool oled_task_user(void) {
