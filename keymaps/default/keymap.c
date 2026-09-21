@@ -27,12 +27,12 @@ bool encoder_update_user(uint8_t index, bool clockwise) {
 #endif
 
 #ifdef OLED_ENABLE
-oled_rotation_t oled_init_user(oled_rotaion_t rotation) {
+oled_rotation_t oled_init_user(oled_rotation_t rotation) {
     return OLED_ROTATION180;
 }
 
 bool oled_task_user(void) {
     oled_write_ln_P(PSTR("Hackpad of Artem"), false);
-    reutrn false;
+    return false;
 }
 #endif
