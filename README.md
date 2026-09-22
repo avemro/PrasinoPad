@@ -1,4 +1,6 @@
-# Artem's Hackpad
+# PrasinoPad
+###### $${\color{gray}\text{Prasino: Prasinos = Green (from greek language)}}$$
+
 
 A custom 4-key macropad with a rotary encoder and an I2C 0.91" OLED display powered by a Seeed Studio XIAO RP2040 and QMK firmware.
 
