@@ -1,9 +1,9 @@
-Component,Quantity,Description
-Seeed Studio XIAO RP2040,1,Microcontroller
-Cherry MX Compatible Switches,4,Mechanical switches
-Keycaps,4,1U Keycaps
-EC11 Rotary Encoder,1,Encoder with push switch
-"0.91"" I2C OLED Screen",1,128x32 display (GP6/GP7)
-4-pin 2.54mm Header,1,OLED connector socket
-3D Printed Case & Plate,1,PLA/PETG
-Screws / Hardware,4,M2 or M3 plate mounting screws
+Item,Qty,Details,Footprint / Notes
+Seeed Studio XIAO RP2040,1,RP2040 microcontroller development board,Hybrid SMD / THT footprint on PCB rear
+Cherry MX Switches,4,Standard mechanical keyswitches,1.00u PCB mount footprint
+1U Keycaps,4,Standard profile keycaps (OEM / Cherry / XDA),Fits standard MX stem
+EC11 Rotary Encoder,1,Incremental encoder with tactile push switch,Alps EC12E vertical footprint
+"0.91"" OLED Display",1,128x32 monochrome I2C display,4-pin interface
+Female Pin Header,1,1x4 2.54mm pitch female header,Socket for the OLED screen
+3D Printed Case & Plate,1,Printed housing (PLA or PETG),Case STL files
+Hardware,4,M2 or M3 screws,Secures the plate to the case
